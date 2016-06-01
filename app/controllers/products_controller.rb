@@ -5,11 +5,11 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
     culqi = Culqi.default_client
     datos_venta = {
-              codigo_comercio: '3zMquUkbF5s8',
-              numero_pedido: '123682',
+              codigo_comercio: ENV['CULQI_CODIGO_COMERCIO'],
+              numero_pedido: (current_user.id).to_s << '_' << Time.now.getutc.to_s,
               moneda: 'PEN',
-              monto: @product.price * 100,
-              descripcion: @product.description,
+              monto: (@product.price * 100).floor,
+              descripcion: @product.name,
               correo_electronico: current_user.email,
               cod_pais: 'PE',
               ciudad: 'Lima',
@@ -21,8 +21,7 @@ class ProductsController < ApplicationController
               }
 
     @venta = culqi.crear_venta(datos_venta)
-    encryptor = Culqi::Encryptor.new
-    @plain_informacion_venta= encryptor.decrypt(@venta['informacion_venta'])
+    @informacion_venta = @venta['informacion_venta']
 
   end
 
