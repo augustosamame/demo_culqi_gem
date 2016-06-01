@@ -1,0 +1,24 @@
+/* line 1, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/sidebar.css.scss */
+.side-nav.tables {
+  padding-top: 6px;
+}
+/* line 3, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/sidebar.css.scss */
+.side-nav.tables li {
+  margin: 0;
+  margin-left: 3px;
+}
+/* line 6, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/sidebar.css.scss */
+.side-nav.tables li a {
+  padding: 2px 4px;
+}
+/* line 8, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/sidebar.css.scss */
+.side-nav.tables li a.selected {
+  font-weight: bold;
+}
+
+/* line 16, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/sidebar.css.scss */
+#sidebar h3 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}

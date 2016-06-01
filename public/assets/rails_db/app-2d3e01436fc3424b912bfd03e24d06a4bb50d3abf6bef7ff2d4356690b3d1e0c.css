@@ -1,0 +1,116 @@
+/* line 1, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+footer {
+  padding: 0;
+}
+
+/* line 5, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+body {
+  height: auto;
+}
+
+/* line 9, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 13, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.sub-nav {
+  background: #f2f2f2;
+  padding: 10px 10px 10px 0;
+}
+
+/* line 18, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+table {
+  border-spacing: 2px;
+}
+/* line 21, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+table th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+/* line 28, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+table.custom_sorting th .asc {
+  background-image: url(/assets/rails_db/up_arrow-d070bba90d00c37963ecdd2054f9e09bd609586cabd1cea6eaf339c975d474cd.gif);
+}
+/* line 32, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+table.custom_sorting th .desc {
+  background-image: url(/assets/rails_db/down_arrow-8b9f05bbbe27def93870d39aee1b023a857ad8ac19d2bf78ce094d3da7e7ad6e.gif);
+}
+/* line 37, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+table th, table td {
+  white-space: nowrap;
+  vertical-align: top;
+}
+/* line 42, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+table td.text {
+  white-space: normal;
+}
+
+/* line 48, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.scrollable {
+  overflow: auto;
+}
+/* line 50, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.scrollable table {
+  min-width: 99%;
+}
+
+/* line 55, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.main_nav {
+  padding-top: 30px;
+}
+
+/* line 59, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.panel.execute_panel {
+  padding-bottom: 5px;
+}
+
+/* line 63, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.sql_history_items {
+  max-height: 450px;
+}
+
+/* line 67, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.red {
+  color: red;
+}
+
+/* line 71, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.yellow {
+  color: #ffba00;
+}
+
+/* line 75, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.warning.label a {
+  color: white;
+}
+
+/* line 80, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.expanded .collapse {
+  display: inline;
+}
+/* line 83, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.expanded .expand {
+  display: none;
+}
+
+/* line 89, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.collapsed .collapse {
+  display: none;
+}
+/* line 92, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.collapsed .expand {
+  display: inline;
+}
+
+/* line 97, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.sql_exp_col {
+  padding-top: 8px;
+  padding-left: 26px;
+}
+
+/* line 102, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/app.css.scss */
+.panel.no_bottom_padding {
+  padding-bottom: 0;
+}

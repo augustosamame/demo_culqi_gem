@@ -1,0 +1,9 @@
+/* line 2, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/search.css.scss */
+#search_form select, #search_form input, #search_form button {
+  width: auto;
+  display: inline-block;
+}
+/* line 7, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/search.css.scss */
+#search_form .sorting_options select {
+  margin-right: 5px;
+}

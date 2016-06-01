@@ -1,0 +1,11 @@
+/* line 1, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/forms.css.scss */
+select.datetime, select.date, select.time {
+  padding-right: 25px;
+  width: auto;
+}
+
+/* line 6, /home/augusto/.rvm/gems/ruby-2.3.0@culqidemo/gems/rails_db-1.1.1/app/assets/stylesheets/rails_db/forms.css.scss */
+.scrollable_form {
+  max-height: 600px;
+  overflow: scroll;
+}
