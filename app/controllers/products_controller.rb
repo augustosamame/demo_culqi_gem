@@ -6,21 +6,23 @@ class ProductsController < ApplicationController
     culqi = Culqi.default_client
     datos_venta = {
               codigo_comercio: '3zMquUkbF5s8',
-              numero_pedido: '123674',
+              numero_pedido: '123682',
               moneda: 'PEN',
-              monto: '5000',
-              descripcion: 'Venta de prueba',
-              correo_electronico: 'augustosamame@gmail.com',
+              monto: @product.price * 100,
+              descripcion: @product.description,
+              correo_electronico: current_user.email,
               cod_pais: 'PE',
               ciudad: 'Lima',
               direccion: 'Av Javier Prado 2320, San Borja',
               num_tel: '986976309',
-              id_usuario_comercio: '2',
+              id_usuario_comercio: current_user.id,
               nombres: 'Augusto',
               apellidos: 'Samame'
               }
 
     @venta = culqi.crear_venta(datos_venta)
+    encryptor = Culqi::Encryptor.new
+    @plain_informacion_venta= encryptor.decrypt(@venta['informacion_venta'])
 
   end
 
