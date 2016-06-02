@@ -34,6 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
 gem 'rails_db'
+#gem 'culqi', :path => "~/workspace/culqiruby"
 gem 'culqi'
 gem 'figaro'
 
